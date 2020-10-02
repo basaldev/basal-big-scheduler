@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as moment from 'moment';
+import moment from 'moment';
 import { Component, CSSProperties } from 'react';
 import AddMore from './AddMore';
 import Summary from './Summary';
@@ -288,7 +288,7 @@ class ResourceEvents extends Component<ResourceEventsProps, ResourceEventsState>
         }
       });
     }
-
+    
     if (hasConflict) {
       const { conflictOccurred } = this.props;
       if (conflictOccurred != undefined) {
